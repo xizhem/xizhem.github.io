@@ -1,16 +1,23 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://xizhem.github.io/react-gh-pages",
+  "homepage": "https://xizhem.github.io",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "dayjs": "^1.11.7",
+    "markdown-to-jsx": "^7.1.9",
+    "prop-types": "^15.8.1",
+    "react-burger-menu": "^3.0.9",
+    "react-helmet-async": "^1.3.0",
+    "react-router-dom": "^6.8.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -39,6 +46,22 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "react-snap": "^1.23.0",
+    "rimraf": "^4.3.1",
+    "babel-jest": "^29.5.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "sass": "^1.58.3",
+    "source-map-explorer": "^2.5.3"
   }
 }
